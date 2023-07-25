@@ -1,0 +1,31 @@
+
+.categories{
+    display: flex;
+    // justify-content: center;
+    background-color: white;
+    padding-bottom: 10px;
+    max-width: 378px;
+    width: 100%;
+    overflow-y: auto;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    .name{
+        margin-right: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+    .nav_link{
+    text-decoration: none;
+    color: black;
+
+    }
+    .active{
+        color: rgb(225, 121, 84);
+        // border-bottom: 2px solid grey;
+        transition: all 455ms ;
+    }
+}

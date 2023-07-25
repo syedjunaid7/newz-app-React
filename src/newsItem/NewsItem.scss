@@ -1,0 +1,27 @@
+
+.news_item{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1.6px solid lightgray;
+
+    .news_img{
+        height: 100px;
+        width: 100px;
+    }
+    .title{
+        font-size: 15px;
+        margin-left: 5px;
+        
+    }
+    .time{
+        font-size: 12px;
+        margin-left: 5px;
+      color: rgb(170, 168, 168);
+      margin-top: 4px;
+      font-weight: 500;
+    }
+}

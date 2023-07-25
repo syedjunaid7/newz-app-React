@@ -1,0 +1,24 @@
+
+
+.parent_nav{
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    .menu_icon{
+        font-size: 30px;
+    }
+
+    .search_icon{
+        font-size: 30px;
+    }
+    .news_logo{
+        height: 70px;
+    }
+}
