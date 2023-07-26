@@ -8,15 +8,14 @@
 .news_item{
     display: flex;
     justify-content: center;
-    // align-items: center;
     text-decoration: none;
     list-style: none;
     padding: 10px;
-    border-bottom: 1.6px solid lightgray;
+    border-bottom: 1px solid #270c71;
 
     .news_img{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
     }
     .title{
         font-size: 15px;

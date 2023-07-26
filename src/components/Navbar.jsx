@@ -10,7 +10,11 @@ function Navbar() {
     <div className='navbar'>
         <BiMenu className='menu_icon'/>
         {/* <h1>NewsLive</h1> */}
-        <img className='news_logo' src="https://cdn-icons-png.flaticon.com/512/21/21601.png" alt="logo" />
+        <div style={{textAlign : 'center'}}>
+        <img className='news_logo' src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Apple_News_icon_%28iOS%29.png" alt="logo" />
+        <h5>NEWS App</h5>
+        </div>
+      
       <BsSearch className='search_icon'/>
     </div>
     <Categories/>

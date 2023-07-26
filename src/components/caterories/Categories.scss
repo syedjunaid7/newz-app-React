@@ -1,7 +1,6 @@
 
 .categories{
     display: flex;
-    // justify-content: center;
     background-color: white;
     padding-bottom: 6px;
     max-width: 378px;
@@ -24,8 +23,7 @@
 
     }
     .active{
-        color: rgb(225, 121, 84);
-        // border-bottom: 2px solid grey;
-        transition: all 455ms ;
+        border-bottom: 3px solid rgb(16, 26, 232);
+        transition: all 30ms ease-in;
     }
 }
